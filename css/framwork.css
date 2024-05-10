@@ -1,0 +1,634 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --gray-color: #888;
+}
+
+@media (max-width: 767px) {
+    .mobile-tc {
+        text-align: center !important;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .mobile-fd-c {
+        flex-direction: column;
+    }
+
+    .mobile-f-jus-c {
+        justify-content: center;
+    }
+
+    .mobile-b-none {
+        border: none;
+    }
+}
+
+/* Start Display */
+.d-flex {
+    display: flex;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.fd-c {
+    flex-direction: column;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.jb {
+    justify-content: space-between;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flexg1 {
+    flex-grow: 1;
+}
+
+.flexg2 {
+    flex-grow: 2;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.g-25 {
+    gap: 25px;
+}
+
+.g-20 {
+    gap: 20px;
+}
+
+.g-15 {
+    gap: 15px;
+}
+
+.g-10 {
+    gap: 10px;
+}
+
+.g-5 {
+    gap: 5px;
+}
+
+.d-block {
+    display: block;
+}
+
+.of-h {
+    overflow: hidden;
+}
+
+/* End Display */
+
+
+
+/* Start Size And Position */
+.w-full {
+    width: 100%;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.pf {
+    position: fixed;
+}
+
+/* End Size And Position */
+
+
+
+/* Start Margin And Padding */
+.p-20 {
+    padding: 20px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+/* End Margin And Padding */
+
+
+
+/* Start Border And Shadow */
+.b-none {
+    border: none;
+}
+
+.b1-ccc {
+    border: 1px solid #ccc;
+}
+
+.b1-ddd {
+    border: 1px solid #ddd;
+}
+
+.b1-eee {
+    border: 1px solid #eee;
+}
+
+.b2-eee {
+    border: 2px solid #eee;
+}
+
+.bt1-eee {
+    border-top: 1px solid #eee;
+}
+
+.bb1-eee {
+    border-bottom: 1px solid #eee;
+}
+
+.br1-eee {
+    border-right: 1px solid #eee;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.br-6 {
+    border-radius: 6px;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.sh-10ddd {
+    box-shadow: 0px 0px 10px #ddd;
+}
+
+.sh-5ddd {
+    box-shadow: 0px 0px 5px #ddd;
+}
+
+/* End Border And Shadow */
+
+
+
+/* Start Colors */
+.bg-white {
+    background-color: white;
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-666 {
+    color: #666;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-gray {
+    color: var(--gray-color);
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-red {
+    color: var(--red-color);
+}
+
+.c-green {
+    color: var(--green-color);
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+/* End Colors */
+
+
+
+/* Start Font */
+.f13 {
+    font-size: 13px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f15 {
+    font-size: 15px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.f25 {
+    font-size: 25px;
+}
+
+.f40 {
+    font-size: 40px;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tt-c {
+    text-transform: capitalize;
+}
+
+.tt-l {
+    text-transform: lowercase !important;
+}
+
+.fw-b {
+    font-weight: bold;
+}
+
+.cp {
+    cursor: pointer;
+}
+
+/* End Font */
+
+
+
+/* Start Componant */
+.flex-cb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-cc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 20px;
+}
+
+.main-title {
+    font-size: 32px;
+    margin: 20px 20px 40px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.main-title::before,
+.main-title::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+}
+
+.main-title::before {
+    width: 120px;
+    background-color: white;
+}
+
+.main-title::after {
+    width: 40px;
+    background-color: black;
+}
+
+.btn-shape,
+.btn-shape-eee,
+.btn-shape-sada {
+    display: block;
+    padding: 4px 10px;
+    width: fit-content;
+    border-radius: 6px;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-shape {
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+    background-color: var(--blue-color);
+}
+
+.btn-shape:hover {
+    background-color: var(--blue-alt-color);
+}
+
+.btn-shape-eee {
+    background-color: #eee;
+    font-size: 13px;
+}
+
+label.toggle1>input,
+label.toggle2>input {
+    display: none;
+}
+
+label.toggle1>div,
+label.toggle2>div {
+    width: 78px;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 50px;
+    position: relative;
+    transition: 0.3s;
+}
+
+label.toggle1>div {
+    height: 32px;
+}
+
+label.toggle2>div {
+    height: 20px;
+}
+
+label.toggle1>div::before,
+label.toggle2>div::before {
+    font-family: var(--fa-style-family-classic);
+    content: '\f00d';
+    font-weight: bold;
+    position: absolute;
+    border-radius: 50%;
+    color: #aaa;
+    top: 4px;
+    left: 4px;
+    display: flex;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+label.toggle1>div::before {
+    width: 24px;
+    height: 24px;
+}
+
+label.toggle2>div::before {
+    width: 12px;
+    height: 12px;
+    font-size: 8px;
+}
+
+label.toggle1>input:checked+div,
+label.toggle2>input:checked+div {
+    background-color: var(--blue-color);
+}
+
+label.toggle1>input:checked+div::before,
+label.toggle2>input:checked+div::before {
+    content: '\f00c';
+    color: var(--blue-color);
+}
+
+label.toggle1>input:checked+div::before {
+    left: 50px;
+}
+
+label.toggle2>input:checked+div::before {
+    left: 62px;
+}
+
+.inner-elements {
+    text-transform: capitalize;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.widgets-control input,
+.backup-manager input {
+    display: none;
+}
+
+.checkbox-rotate>label,
+.radio-custom>label {
+    cursor: pointer;
+    padding-left: 30px;
+    position: relative;
+}
+
+.checkbox-rotate>label::before,
+.checkbox-rotate>label::after,
+.radio-custom>label::before,
+.radio-custom>label::after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border-radius: 4px;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+
+.checkbox-rotate>label::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--gray-color);
+}
+
+.checkbox-rotate>label:hover::before {
+    border: 2px solid var(--blue-alt-color);
+}
+
+.checkbox-rotate>label::after {
+    font-family: var(--fa-style-family-classic);
+    content: '\f00c';
+    font-weight: bold;
+    color: white;
+    background-color: var(--blue-color);
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    transform: translateY(-50%) scale(0) rotate(360deg);
+}
+
+.checkbox-rotate>input[type='checkbox']:checked+label::after {
+    transform: translateY(-50%) scale(1);
+}
+
+.radio-custom>label::before,
+.radio-custom>label::after {
+    content: '';
+    border-radius: 50%;
+}
+
+.radio-custom>label:hover::before {
+    outline: 2px solid var(--blue-alt-color);
+}
+
+.radio-custom>label::before {
+    width: 12px;
+    height: 12px;
+    border: 2px solid white;
+    outline: 2px solid var(--gray-color);
+}
+
+.radio-custom>label::after {
+    width: 12px;
+    height: 12px;
+    background-color: var(--blue-color);
+    left: 2px;
+    transform: translateY(-50%) scale(0);
+}
+
+.radio-custom>input[type='radio']:checked+label::after {
+    transform: translateY(-50%) scale(1);
+}
+
+/* End Componant */
