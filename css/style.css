@@ -696,6 +696,7 @@ ul {
 
 /* Start General Info */
 .general-info :disabled {
+    min-width: 120px;
     cursor: not-allowed;
     background-color: #f0f4f8;
 }
@@ -1170,6 +1171,10 @@ ul {
 
 .plans-inner-content .box ul li i.no {
     color: var(--red-color);
+}
+
+.plans-inner-content .box ul li i:not(.yes, .no) {
+    cursor: pointer;
 }
 
 /* End Plans Inner Content */
