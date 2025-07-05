@@ -1,6 +1,6 @@
-# 🚀 Project 7
+# 🚀 Project 7 - Elzero Template 4
 
-Elzero CSS Templete 4 (Dashboard)
+Built a responsive user dashboard using HTML5 and CSS3. Focused on mastering CSS Grid layout and advanced positioning techniques. Developed and applied my own custom CSS framework to maintain consistency, reusability, and clean utility-based styling across components.
 
 <br/>
 
